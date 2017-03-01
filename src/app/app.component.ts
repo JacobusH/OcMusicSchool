@@ -1,6 +1,8 @@
+import {AlertComponent} from 'ng2-bootstrap/ng2-bootstrap';
 import { Component } from '@angular/core';
 import {OnInit} from '@angular/core';
 import {Router} from '@angular/router';
+
 
 @Component({
   selector: 'app-root',
