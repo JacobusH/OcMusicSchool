@@ -5,9 +5,7 @@ import {Component, EventEmitter, Input, Output} from '@angular/core';
 import {FormGroup} from '@angular/forms';
 
 @Component ({
-    template: `
-       <h1>Home</h1>
-    `
+     templateUrl: './home.component.html'
 })
 export class HomeComponent {
     messages;

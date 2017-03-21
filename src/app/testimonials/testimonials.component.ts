@@ -5,9 +5,9 @@ import {Component, EventEmitter, Input, Output} from '@angular/core';
 import {FormGroup} from '@angular/forms';
 
 @Component ({
-    templateUrl: './about.component.html'
+     templateUrl: './testimonials.component.html'
 })
-export class AboutComponent {
+export class TestimonialsComponent {
     messages;
     
     // constructor(messagesService: MessagesService)
