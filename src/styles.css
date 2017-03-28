@@ -1,5 +1,28 @@
 /* You can add global styles to this file, and also import other style files */
 
+
+.FL
+{
+    float:left;
+}
+
+.FR
+{
+    float:right;
+}
+
+.VVLG
+{
+    font-size:17px;
+}
+
+.mR10
+{
+    margin-right:10px;
+}
+
+
+
 html
 {
     height:100%;
@@ -9,6 +32,12 @@ body
 {
     height:100%;
     overflow-y:hidden;
+}
+
+.body-content
+{
+    max-height:946px;
+    overflow-y:scroll;
 }
 
 .my-navbar
@@ -48,6 +77,9 @@ body
     margin-top:64px;
 }
 
+/*******************************
+    TILES
+*******************************/
 .tile
 {
     height:30%;
@@ -62,5 +94,35 @@ body
     text-align:center;
     vertical-align:middle;
 }
+
+.tile-content
+{
+    display:inline-block;
+    position:relative;
+}
+
+.tile-content-title
+{
+    opacity:1;
+    position:absolute;
+    bottom:40%;
+    left:33%;
+    font-size:26px;
+    color:white;
+    font-weight: bold;
+}
+
+.tile-img
+{
+    opacity: .5;
+}
+
+.tile-img:hover
+{
+    opacity: 1;
+}
+
+
+
 
 
