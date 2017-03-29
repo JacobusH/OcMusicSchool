@@ -7,6 +7,7 @@ import { MaterializeModule } from 'ng2-materialize';
 
 import {routing} from './app.routes';
 
+
 import { AboutComponent } from './about/about.component';
 import { AppComponent } from './app.component';
 import { ContactComponent } from './contact/contact.component';
@@ -15,6 +16,7 @@ import { GalleryComponent } from './gallery/gallery.component';
 import { HomeComponent } from './home/home.component';
 import { NotFoundComponent } from './notFound/not-found.component';
 import { TeachersComponent } from './teachers/teachers.component';
+import { TeachersDetailsComponent } from './teachers/teachers-details.component';
 import { TestimonialsComponent } from './testimonials/testimonials.component';
 
 @NgModule({
@@ -27,6 +29,7 @@ import { TestimonialsComponent } from './testimonials/testimonials.component';
     HomeComponent,
     NotFoundComponent,
     TeachersComponent,
+    TeachersDetailsComponent,
     TestimonialsComponent
   ],
   imports: [

@@ -1,6 +1,28 @@
 /* You can add global styles to this file, and also import other style files */
 
 
+
+/*******************************
+    Menu
+*******************************/
+@media (max-width: 768px) {
+  .left-nav .tile, .right-nav .tile {
+    display: none;
+  }
+
+  .main-content {
+      height:initial !important;
+  }
+}
+
+/*******************************
+    Main Content
+*******************************/
+.center-content
+{
+    padding-right: 0px !important;
+}
+
 .FL
 {
     float:left;
