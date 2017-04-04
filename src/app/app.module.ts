@@ -4,6 +4,7 @@ import { NgModule } from '@angular/core';
 import { FormsModule } from '@angular/forms';
 import { HttpModule } from '@angular/http';
 import { MaterializeModule } from 'ng2-materialize';
+import { AngularFireModule } from 'angularfire2';
 
 import {routing} from './app.routes';
 
@@ -23,6 +24,14 @@ import { TestimonialsComponent } from './testimonials/testimonials.component';
 
 import {TeacherService} from './teachers/teacher.service';
 
+export const firebaseConfig = {
+    apiKey: "AIzaSyCFToauOWTjn55Oc2e6L1YkCt5ZGzbMXV8",
+    authDomain: "ocmusicschool-11817.firebaseapp.com",
+    databaseURL: "https://ocmusicschool-11817.firebaseio.com",
+    projectId: "ocmusicschool-11817",
+    storageBucket: "ocmusicschool-11817.appspot.com",
+    messagingSenderId: "202663817255"
+  };
 
 @NgModule({
   declarations: [
@@ -39,6 +48,7 @@ import {TeacherService} from './teachers/teacher.service';
   ],
   imports: [
     AlertModule.forRoot(),
+    AngularFireModule.initializeApp(firebaseConfig),
     BrowserModule,
     FormsModule,
     HttpModule,
