@@ -16,9 +16,9 @@ export class AppComponent {
 
 
   constructor(af: AngularFire) {
-       this.teachers = af.database.list('/teachers');
+      //  this.teachers = af.database.list('/teachers');
 
-       console.log(this.teachers);
+      //  console.log(this.teachers);
     }
 
 }

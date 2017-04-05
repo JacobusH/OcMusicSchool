@@ -21,12 +21,12 @@ export const routing:ModuleWithProviders = RouterModule.forRoot([
   { path: 'about', component: AboutComponent },
   { path: 'contact', component: ContactComponent },
   { path: 'gallery', component: GalleryComponent },
+  { path: 'teachers', component: TeachersComponent },
+  // { path: 'teachers/:id', component: TeachersDetailsComponent},
   { path: 'teachers', component: TeachersComponent,
     children: [
       {path: ':id', component: TeachersDetailsComponent}
     ]},
   { path: 'testimonials', component: TestimonialsComponent },
-//   { path: 'detail', loadChildren: './+detail#DetailModule'},
-//   { path: 'barrel', loadChildren: './+barrel#BarrelModule'},
   { path: '**',    component: NotFoundComponent },
 ]);
