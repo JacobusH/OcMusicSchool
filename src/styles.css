@@ -160,16 +160,32 @@ body
 .tile
 {
     height:30%;
-    background-color:darkblue;
+    background-color:#1976d2;
     border:1px solid purple;
+    position:relative;
+    text-align:center;
+}
+
+.tile-small img
+{
+    width:120px;
+    height:100px;
 }
 
 .tile-title
 {
     position:relative;
     color:white;
-    text-align:center;
-    vertical-align:middle;
+    /*text-align:center;*/
+    /*vertical-align:middle;*/
+    top:42%;
+    /*left:41%;*/
+}
+
+.tile-title > a
+{
+    color: white;
+    font-family: "Roboto", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
 }
 
 .tile-content

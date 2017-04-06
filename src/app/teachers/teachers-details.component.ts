@@ -9,8 +9,8 @@ import {TeacherService} from './teacher.service';
 
 @Component({
     template: `
-        <h1>{{ (teacher | async)?.name }}  </h1>
-        <p>{{ (teacher | async)?.summary }}  </p>
+        <h2>{{ (teacher | async)?.name }}  </h2>
+        <div [innerHTML]="(teacher | async)?.summary"></div>
     `,
     providers: [TeacherService]
 })
